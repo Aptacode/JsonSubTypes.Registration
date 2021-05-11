@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <RootNamespace>Aptacode.JsonSubTypeRegistration</RootNamespace>
+    <AssemblyName>Aptacode.JsonSubTypeRegistration</AssemblyName>
+    <Authors>Timothy Jones</Authors>
+    <Company>Aptacode</Company>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Aptacode/JsonSubTypes.Registration</PackageProjectUrl>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/Aptacode/JsonSubTypes.Registration</RepositoryUrl>
+    <RepositoryType />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+    <Description>Automatically register json subtypes!</Description>
+    <PackageTags>Newtonsoft Json JsonSubTypes Aptacode</PackageTags>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="JsonSubTypes" Version="1.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
